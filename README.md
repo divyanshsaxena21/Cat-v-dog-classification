@@ -11,7 +11,6 @@ In this project, we aim to develop a Convolutional Neural Network (CNN) model to
 Data Files:
 - train_images/: Contains labeled images of cats and dogs for training.
 - test_images/: Contains unlabeled images of cats and dogs for prediction.
-- labels.csv: Contains the labels for the training images indicating whether each image is of a cat or a dog.
 
 ### Preprocessing Steps
 
@@ -34,7 +33,6 @@ Data Files:
 ### Prediction
 
 - The trained model was used to classify images in the test dataset.
-- Predictions were saved in a CSV file named `predictions.csv`, which contains the image filenames and their predicted labels.
 
 ## 2. Insights and Conclusions from Data
 
@@ -50,17 +48,9 @@ Data Files:
 
 ## 3. Performance on Validation Dataset
 
-### Metrics
-
-- Accuracy: The model achieved an accuracy of [insert accuracy]%, indicating how well it classified images overall.
-- Precision: Measures the proportion of true positive predictions among all positive predictions made by the model.
-- Recall: Measures the proportion of actual positives that were correctly identified by the model.
-- F1-Score: Provides a balance between precision and recall, giving a single metric to evaluate the model’s performance.
-
 ### Results
 
-- Accuracy: The CNN model achieved an accuracy of [insert accuracy]%, reflecting its effectiveness in distinguishing between cats and dogs.
-- Precision, Recall, and F1-Score: Detailed metrics reveal the model’s performance in finding and correctly predicting each class.
+- Accuracy: The CNN model is reflecting its effectiveness in distinguishing between cats and dogs.
 
 ## 4. Conclusion
 
